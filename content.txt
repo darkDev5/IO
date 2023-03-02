@@ -1,0 +1,47 @@
+Copier
+--------------------
+copy()
+
+FolderListType
+--------------------
+Folder, File, Any
+
+FolderSearchEngine
+--------------------
+search(boolean showHidden)
+
+FolderSearchEngineBuilder
+--------------------
+build()
+
+File
+--------------------
+setFilePath(String filePath)
+initValues()
+isEmpty()
+exists()
+delete()
+rename(String newName)
+isLocked()
+getAttribute(String key)
+
+Folder
+--------------------
+setFolderPath(String folderPath)
+initValues()
+getSize()
+isEmpty()
+exists()
+list(FolderListType type, boolean showHidden)
+walk(boolean showHidden)
+delete()
+rename(String newName)
+erase()
+getAttribute(String key)
+
+FolderVisitor
+--------------------
+preVisitDirectory(Path dir, BasicFileAttributes attrs)
+visitFile(Path file, BasicFileAttributes attrs)
+visitFileFailed(Path file, IOException exc)
+postVisitDirectory(Path dir, IOException exc)
