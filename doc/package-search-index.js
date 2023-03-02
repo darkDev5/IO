@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.darkdev5.lib.io"},{"l":"org.darkdev5.lib.io.copy"},{"l":"org.darkdev5.lib.io.option"},{"l":"org.darkdev5.lib.io.search"}];updateSearchResults();
